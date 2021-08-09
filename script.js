@@ -13,7 +13,7 @@ var height = (side1 + side2 + side3)/2
 
 const celsius = prompt("Enter a celsius value: ");
 const fahrenheit = (celsius * 1.8) + 32 
-document.write(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
+alert(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
 
 
 // current date
