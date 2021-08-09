@@ -5,14 +5,15 @@ var side3 = 7
 var height = (side1 + side2 + side3)/2
 // console.log(height)
  var area = Math.sqrt(height * ((height-side1) * (height -side2) * (height - side3)))
- console.log(area)
+ document.write(area)
+ document.write("<br />")
 
 
 // Convert temperatures to and from celsius, fahrenheit
 
 const celsius = prompt("Enter a celsius value: ");
-const fahrenheit = (celsius * 1.8) + 32
-console.log(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
+const fahrenheit = (celsius * 1.8) + 32 
+document.write(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
 
 
 // current date
